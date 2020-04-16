@@ -21,10 +21,23 @@ Another package we would like to add in the future would be a healthcare app tha
 
 ## Procedure
 
+First, we gathered data from the UK Department for Transport regarding accidents. We chose two out of the three available datasets for 2018. We had data on accidents and the vehicles in those accidents. To merge these two datasets, they provided an accident identifier that allowed us to merge the two. In fact, we noticed that we gained some data back when we merged, which we were happy to see.  
+
+Next, we began reviewing the data and understanding it. There was a key provided that helped us interpret the meanings of the variables. Many of the values were in numerical form but not continuous, rather, signifying some category or event. This was the most labor intensive part of the project. We had over 45 columns, and almost all of them needed review. Some were dropped due to redundancy or unnecessary information. Others were combed through carefully, examining the distributions, at times examining the statistical relationships, and ultimately transformed. You can view the final dataset in the repo by downloading `final_data.csv`.   
+
+Finally, we began to run our models. We chose to try KNN and RandomForestClassifier, and combined them with both cross validation and GridSearchCV. In addition, we performed a Recursive Feature Elimination (RFECV) on the dataset used for RandomForestClassifier (KNN does not support this). This allowed further refinement of the dataset prior to moving into determining the winning model.  
+
+As an extra, the reality of a large class imbalance was present in our data. Our dataset had a minor imbalance between minor and severe, and a much more pronounced class imbalance between minor and fatal. We had to run some statistical tests on this phenomena to understand its presence better. Ultimately, we chose to use SMOTE to correct for the class imbalances. It proved to be a good move and benefitted our models.
+
 ## Results
 
 ## Discussion
 
 ## Conclusion
 
+
+
+
+
 ## References
+[Dataset location](https://data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data)
