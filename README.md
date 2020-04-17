@@ -1,4 +1,5 @@
 # Module 3 Project
+### *Classification of Accident Severity*
 
 ## Table of Contents
 1. Cleaning and preparation - `EDA_&_CLEANING.ipynb`
