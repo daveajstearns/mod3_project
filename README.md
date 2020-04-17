@@ -78,7 +78,7 @@ RandomForestClassifier evolution over the refinement process; F1 score.
 
 RandomForestClassifer evolution over the refinement process; Recall score.
 
-![alt text](https://github.com/daveajstearns/mod3_project/blob/master/images/Screen%20Shot%202020-04-16%20at%208.59.41%20PM.png "RandomForest Feature Importance")
+![alt text](https://github.com/daveajstearns/mod3_project/blob/master/images/Screen%20Shot%202020-04-17%20at%209.27.07%20AM.png "RandomForest Feature Importance")
 
 RandomForestClassifier feature importances.
 
