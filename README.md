@@ -1,7 +1,19 @@
 # Module 3 Project
 
+## Table of Contents
+1. Cleaning and preparation - `EDA_&_CLEANING.ipynb`
+2. Statistical Testing - `Statistical Tests.ipynb`
+3. KNN Modeling - `SMOTE Models.ipynb`
+4. RandomForestClassifier Modeling - 'mod3_randomforestclassifier.ipynb`
+5. Maps - 'mod3_maps.ipynb` **one map is contained in `EDA_&_CLEANING.ipynb`**
+6. Images - 
+      * `Visuals` contains images from KNN Modeling
+      * `images_dave` contains images from RFC Modeling
+7. Functions - `functions.py`
+8. Final cleaned data set - `final_data.csv`
+
 ## Abstract
-**fill this in at the end**  
+The methods used for this classification project are no different than any other. We spent roughly 80% of our actual working time cleaning and preparing the data for analysis and also for interpretability. This took a considerable dive into how the UK Department for Transport sets up these documents, and also took some time to understand their language as it is slightly different than what we are used to here in the United States. For example, one of the road types we came across was *Unclassified* which, at first glance, seems like a missing value. After further research, we saw that this actually meant a local road. In addition, a *slip road* is what we would call an on-ramp. There were certain nuances we had to overcome. In terms of results, can we classify whether an accident was minor, severe, or fatal? Both of our models ran **recall** and **F1** scores exceeding 83%. We chose **recall** as the primary metric because there is no reason to not overreact to a car crash. We would rather have authorities and Emergency Services be at the ready for a catastrophe even in the event of a misclassified minor fender bender.   
 
 ## Introduction
 This project uses datasets supplied by data.gov.uk; the United Kingdom's open data effort. The purpose of this project is to build a model that can help predict whether a traffic accident is minor, severe, or fatal. The process used to achieve our results is defined below in our various notebooks regarding cleaning, interpretation, model building, and model evaluation.  
@@ -30,6 +42,8 @@ Finally, we began to run our models. We chose to try KNN and RandomForestClassif
 As an extra, the reality of a large class imbalance was present in our data. Our dataset had a minor imbalance between minor and severe, and a much more pronounced class imbalance between minor and fatal. We had to run some statistical tests on this phenomena to understand its presence better. Ultimately, we chose to use SMOTE to correct for the class imbalances. It proved to be a good move and benefitted our models.
 
 ## Results
+
+
 
 ## Discussion
 
