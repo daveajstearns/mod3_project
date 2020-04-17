@@ -3,6 +3,8 @@
 #### David Stearns & Emilia Orellana
 ---
 
+[Google Slides Link!](https://docs.google.com/presentation/d/1nzUoEa050fDTF4sYmNUio8JzvVP-LBge1zaT5la7kbM/edit?usp=sharing)
+
 ## Table of Contents
 1. Cleaning and preparation - `EDA_&_CLEANING.ipynb`
 2. Statistical Testing - `Statistical Tests.ipynb`
