@@ -4,7 +4,7 @@
 1. Cleaning and preparation - `EDA_&_CLEANING.ipynb`
 2. Statistical Testing - `Statistical Tests.ipynb`
 3. KNN Modeling - `SMOTE Models.ipynb`
-4. RandomForestClassifier Modeling - 'mod3_randomforestclassifier.ipynb`
+4. RandomForestClassifier Modeling - `mod3_randomforestclassifier.ipynb`
 5. Maps - `mod3_maps.ipynb` **one map is contained in `EDA_&_CLEANING.ipynb`**
 6. Images - 
       * `Visuals` contains images from KNN Modeling
