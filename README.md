@@ -76,14 +76,18 @@ RandomForestClassifier evolution over the refinement process; F1 score.
 
 RandomForestClassifer evolution over the refinement process; Recall score.
 
+![alt text](https://github.com/daveajstearns/mod3_project/blob/master/images/Screen%20Shot%202020-04-16%20at%208.59.41%20PM.png "RandomForest Feature Importance")
 
-
+RandomForestClassifier feature importances.
 
 ## Discussion
 
+Our best model (score wise) turned out to be the KNN with the highest recall and F1 scores. While the RandomForestClassifier is a great model and could be implemented in our final product, we want to make sure our end user is safe in any situation. Albeit, there doesn't seem to be much of a difference between the two models, and it will take further analysis to figure out which one will work the best in a real world situation.
+
+
 ## Conclusion
 
-
+We can begin testing this product in test vehicles. The KNN and RandomForestClassifier models performed excellent for our business case, and would like to test out the models on the new data coming out this year from 2019. The data sets are one year lagged. 
 
 
 
