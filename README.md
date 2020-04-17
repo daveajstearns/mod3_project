@@ -56,6 +56,27 @@ We found a statistical relationship between accident severity and light conditio
 
 **Modeling**
 
+![alt text](https://github.com/daveajstearns/mod3_project/blob/master/images/Screen%20Shot%202020-04-17%20at%209.01.49%20AM.png "KNN F1 Evolution")
+
+The KNN model's evolution over different K values.  
+
+![alt text](https://github.com/daveajstearns/mod3_project/blob/master/images/Screen%20Shot%202020-04-17%20at%209.11.49%20AM.png "KNN F1 @ K = 2")
+
+KNN @ K = 2
+
+![alt text](https://github.com/daveajstearns/mod3_project/blob/master/images/Screen%20Shot%202020-04-17%20at%209.12.28%20AM.png "KNN F1 @ K = 9")  
+
+KNN @ K = 9
+
+![alt text](https://github.com/daveajstearns/mod3_project/blob/master/images/Screen%20Shot%202020-04-16%20at%209.03.50%20PM.png "RandomForest F1 Evolution"
+
+RandomForestClassifier evolution over the refinement process; F1 score.
+
+![alt text](https://github.com/daveajstearns/mod3_project/blob/master/images/Screen%20Shot%202020-04-16%20at%208.59.41%20PM.png "RandomForest Recall Evolution"
+
+RandomForestClassifer evolution over the refinement process; Recall score.
+
+
 
 
 ## Discussion
