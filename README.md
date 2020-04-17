@@ -68,11 +68,11 @@ KNN @ K = 2
 
 KNN @ K = 9
 
-![alt text](https://github.com/daveajstearns/mod3_project/blob/master/images/Screen%20Shot%202020-04-16%20at%209.03.50%20PM.png "RandomForest F1 Evolution"
+![alt text](https://github.com/daveajstearns/mod3_project/blob/master/images/Screen%20Shot%202020-04-16%20at%209.03.50%20PM.png "RandomForest F1 Evolution")
 
 RandomForestClassifier evolution over the refinement process; F1 score.
 
-![alt text](https://github.com/daveajstearns/mod3_project/blob/master/images/Screen%20Shot%202020-04-16%20at%208.59.41%20PM.png "RandomForest Recall Evolution"
+![alt text](https://github.com/daveajstearns/mod3_project/blob/master/images/Screen%20Shot%202020-04-16%20at%208.59.41%20PM.png "RandomForest Recall Evolution")
 
 RandomForestClassifer evolution over the refinement process; Recall score.
 
