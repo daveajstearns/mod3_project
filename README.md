@@ -1,5 +1,6 @@
 # Module 3 Project
 ## *Classfication of Accident Severity*
+#### David Stearns & Emilia Orellana
 ---
 
 ## Table of Contents
@@ -8,9 +9,7 @@
 3. KNN Modeling - `SMOTE Models.ipynb`
 4. RandomForestClassifier Modeling - `mod3_randomforestclassifier.ipynb`
 5. Maps - `mod3_maps.ipynb` **one map is contained in `EDA_&_CLEANING.ipynb`**
-6. Images - 
-      * `Visuals` contains images from KNN Modeling
-      * `images_dave` contains images from RFC Modeling
+6. Images - `images` folder
 7. Functions - `functions.py`
 8. Final cleaned data set - `final_data.csv`
 
@@ -44,6 +43,18 @@ Finally, we began to run our models. We chose to try KNN and RandomForestClassif
 As an extra, the reality of a large class imbalance was present in our data. Our dataset had a minor imbalance between minor and severe, and a much more pronounced class imbalance between minor and fatal. We had to run some statistical tests on this phenomena to understand its presence better. Ultimately, we chose to use SMOTE to correct for the class imbalances. It proved to be a good move and benefitted our models.
 
 ## Results
+
+**Statistical Testing**
+
+![alt text](https://github.com/daveajstearns/mod3_project/blob/master/images/Screen%20Shot%202020-04-17%20at%208.51.43%20AM.png "Accidents In Different Light Conditions")
+
+We found no statistical difference between accidents in light or dark conditions.
+
+![alt text](https://github.com/daveajstearns/mod3_project/blob/master/images/Screen%20Shot%202020-04-17%20at%208.49.36%20AM.png "Chi2 Test")
+
+We found a statistical relationship between accident severity and light condition.
+
+**Modeling**
 
 
 
